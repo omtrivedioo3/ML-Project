@@ -19,6 +19,7 @@ from src.logger import logging
 
 from src.utils import save_object,evaluate_models
 
+# New data can be added here for model training and evaluation
 @dataclass
 class ModelTrainerConfig:
     trained_model_file_path=os.path.join("artifacts","model.pkl")
